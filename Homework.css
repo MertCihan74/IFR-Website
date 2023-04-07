@@ -1,0 +1,373 @@
+body{
+    background-color:  #1B1A17;
+    margin: 0;
+    padding: 0;
+}
+#home:hover{
+    background-color: blueviolet;
+}
+#menu:hover{
+    background-color: blueviolet;
+}
+#sol{
+    width: 15%;
+    height: 1830px;
+    padding: 1%;
+    float: left;
+    background-color: black;
+}
+.boşluk1{
+    width: 8%;
+    height: 580px;
+    float: left;
+    background-color: #1B1A17;
+}
+
+#orta{
+    width: 62%;
+    float: left;
+    margin-top: 80px;
+    height: 1000px;
+    background-color: #1B1A17;
+    
+}
+
+.slider{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+#radio6:checked ~ .first{
+  margin-left: -100%;
+}
+
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #40D3DC;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+  background: #40D3DC;
+}
+      
+.boşluk2{
+    width:0%;
+    height: 580px;
+    float: left;   background-color: #1B1A17;
+}
+#sağ{
+    width: 15%;
+    height: 1830px;
+    padding: 1%;
+    float: right;
+    background-color: black;
+}
+h1{
+  margin-left: 170px;
+  padding: 2cm;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: #73777B;
+}
+#movie{
+text-align: left;
+font-size: 25px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: #40D3DC;
+
+}
+#movie ul li{
+list-style-type: none;
+}
+#first{
+  width: 200px;
+  height: 500px;
+  float: left;
+
+  background-color: #1B1A17;
+}
+.p{
+  text-align: center;
+  color: white;
+  
+}
+.pp{
+  color: rgb(165, 157, 157);
+}
+#first img{
+  width: 200px;
+  height: 260px;
+}
+
+.boşluk3{
+  width: 54px;
+  height: 500px;
+  float: left;
+  background-color: #1B1A17;
+}
+
+.boşluk4{
+  width: 127px;
+  height: 500px;
+  float: left; 
+  background-color: #1B1A17;
+}
+#footer{
+  width: 100%;
+  height:100px;
+  float: left;
+  background-color: black;
+  color: white;
+}
+#footer ul li{
+  color: white;
+  align-items: center;
+}
+#numberone{
+background-color: #1B1A17;
+color: white;
+
+}
+.boşluka{
+    width: 4%;
+    float: left;
+    height: 200px;
+}
+h2{
+    padding: 1cm;
+    color:white;
+}
+#sol1{
+  width: 15%;
+    height: 3200px;
+    padding: 1%;
+    float: left;
+    background-color: black;
+}
+#sağ1{
+  width: 15%;
+    height: 3200px;
+    padding: 1%;
+    float: right;
+    background-color: black;
+}
+#sağ1 img{
+  float: left;
+  margin-left: 45px;
+  width: 120px;
+  height: 3170px;
+}
+
+#sol1 img{
+  float:left ;
+  margin-left: 45px;
+  width: 120px;
+  height: 3170px;
+}
+
+
+#orta1{
+  width: 62%;
+  float: left;
+  margin-top: 50px;
+  height: 1000px;
+  background-color: #1B1A17;
+}
+#renk{
+  background-color: rgb(51, 49, 49);
+  border-radius: 15px;
+  color: azure;
+}
+#renk2{
+    background-color: #1B1A17;
+    border-radius: 15px;
+    color: azure;
+}
+#sol img{
+  float:left ;
+  margin-left: 45px;
+  width: 120px;
+  height: 1830px;
+}
+#sağ img{
+  float: left;
+  margin-left: 45px;
+  width: 120px;
+  height: 1830px;
+}
+.open-button {
+  background-color: black; 
+  color: blueviolet; 
+  font-size: large;
+  padding: 7px 20px;
+  border: 2px solid blueviolet;
+  cursor: pointer;
+  opacity: 0.8;
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  right: 330px;
+  width: 280px;
+  border-radius: 10px;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+
+.open-button:hover{
+  background-color: blueviolet;
+  color: black;
+}
+
+
+.form-popup {
+  display: none;
+  position: absolute;
+  top: 57px;
+  right: 325px;
+  border: 3px solid #000000;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: black;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: blueviolet;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
